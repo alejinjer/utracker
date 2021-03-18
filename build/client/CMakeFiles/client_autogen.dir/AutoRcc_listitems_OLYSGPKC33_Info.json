@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client/client_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master/client",
+	"CMAKE_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master",
+	"INCLUDE_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client/client_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/listitems/BaseListItem.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/listitems/SimpleMenu.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/listitems/Standard.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/listitems/Subheader.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/listitems/SectionHeader.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/listitems/Divider.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/listitems/qmldir",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/listitems/Subtitled.qml"
+	],
+	"LOCK_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/client/CMakeFiles/client_autogen.dir/AutoRcc_listitems_OLYSGPKC33_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "listitems" ],
+	"OUTPUT_CHECKSUM" : "OLYSGPKC33",
+	"OUTPUT_NAME" : "qrc_listitems.cpp",
+	"RCC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/client/CMakeFiles/client_autogen.dir/AutoRcc_listitems_OLYSGPKC33_Used.txt",
+	"SOURCE" : "/Users/opiskun/Desktop/uTracker-master/client/src/material/src/listitems/listitems.qrc",
+	"VERBOSITY" : 0
+}

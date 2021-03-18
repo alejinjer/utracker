@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client/client_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master/client",
+	"CMAKE_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master",
+	"INCLUDE_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client/client_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/Button.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/Slider.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/Tab.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/Label.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/TextField.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/Action.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/RadioButton.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/Switch.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/CheckBox.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/ProgressBar.qml"
+	],
+	"LOCK_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/client/CMakeFiles/client_autogen.dir/AutoRcc_controls_Y265DRJI6Q_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "controls" ],
+	"OUTPUT_CHECKSUM" : "Y265DRJI6Q",
+	"OUTPUT_NAME" : "qrc_controls.cpp",
+	"RCC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/client/CMakeFiles/client_autogen.dir/AutoRcc_controls_Y265DRJI6Q_Used.txt",
+	"SOURCE" : "/Users/opiskun/Desktop/uTracker-master/client/src/material/src/controls/controls.qrc",
+	"VERBOSITY" : 0
+}

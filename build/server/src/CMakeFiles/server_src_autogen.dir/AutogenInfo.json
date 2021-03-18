@@ -1,0 +1,152 @@
+{
+	"BUILD_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/server/src/server_src_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/server/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master/server/src",
+	"CMAKE_EXECUTABLE" : "/Users/opiskun/.brew/Cellar/cmake/3.18.3/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/opiskun/Desktop/uTracker-master/server/src/CMakeLists.txt",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5/Qt5Config.cmake",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake",
+		"/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake",
+		"/Users/opiskun/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/FindOpenSSL.cmake",
+		"/Users/opiskun/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/FindPkgConfig.cmake",
+		"/Users/opiskun/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/Users/opiskun/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/FindPackageMessage.cmake",
+		"/Users/opiskun/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/Users/opiskun/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/FindPackageMessage.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/opiskun/Desktop/uTracker-master/server/src/connection.h",
+			"MU",
+			"EWIEGA46WW/moc_connection.cpp"
+		],
+		[
+			"/Users/opiskun/Desktop/uTracker-master/server/src/database.h",
+			"MU",
+			"EWIEGA46WW/moc_database.cpp"
+		],
+		[
+			"/Users/opiskun/Desktop/uTracker-master/server/src/hash.h",
+			"MU",
+			"EWIEGA46WW/moc_hash.cpp"
+		],
+		[
+			"/Users/opiskun/Desktop/uTracker-master/server/src/responses.h",
+			"MU",
+			"EWIEGA46WW/moc_responses.cpp"
+		],
+		[
+			"/Users/opiskun/Desktop/uTracker-master/server/src/runnable.h",
+			"MU",
+			"EWIEGA46WW/moc_runnable.cpp"
+		],
+		[
+			"/Users/opiskun/Desktop/uTracker-master/server/src/server.h",
+			"MU",
+			"EWIEGA46WW/moc_server.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/server/src/server_src_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/server/src/server_src_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/opiskun/Desktop/uTracker-master/server/src",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers",
+		"/usr/local/Cellar/qt/5.15.1/mkspecs/macx-clang",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtGui.framework",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtGui.framework/Headers",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtNetwork.framework",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtNetwork.framework/Headers",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtSql.framework",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtSql.framework/Headers",
+		"/usr/local/opt/openssl/include",
+		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include",
+		"/Library/Developer/CommandLineTools/usr/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Users/opiskun/.brew/Cellar/cmake/3.18.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/server/src/server_src_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/server/src/CMakeFiles/server_src_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/server/src/CMakeFiles/server_src_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/opiskun/Desktop/uTracker-master/server/src/connection.cpp",
+			"MU"
+		],
+		[
+			"/Users/opiskun/Desktop/uTracker-master/server/src/database.cpp",
+			"MU"
+		],
+		[ "/Users/opiskun/Desktop/uTracker-master/server/src/hash.cpp", "MU" ],
+		[
+			"/Users/opiskun/Desktop/uTracker-master/server/src/responses.cpp",
+			"MU"
+		],
+		[
+			"/Users/opiskun/Desktop/uTracker-master/server/src/runnable.cpp",
+			"MU"
+		],
+		[ "/Users/opiskun/Desktop/uTracker-master/server/src/server.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

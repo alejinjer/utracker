@@ -1,0 +1,32 @@
+{
+	"BUILD_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client/client_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master/client",
+	"CMAKE_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master",
+	"INCLUDE_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client/client_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/ProgressBarStyle.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/SwitchStyle.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/ToolBarStyle.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/ApplicationWindowStyle.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/CheckBoxStyle.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/ButtonStyle.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/ToolButtonStyle.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/SliderStyle.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/qmldir",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/TextFieldStyle.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/RadioButtonStyle.qml"
+	],
+	"LOCK_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/client/CMakeFiles/client_autogen.dir/AutoRcc_styles_U7RV4RD6Y7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "styles" ],
+	"OUTPUT_CHECKSUM" : "U7RV4RD6Y7",
+	"OUTPUT_NAME" : "qrc_styles.cpp",
+	"RCC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/client/CMakeFiles/client_autogen.dir/AutoRcc_styles_U7RV4RD6Y7_Used.txt",
+	"SOURCE" : "/Users/opiskun/Desktop/uTracker-master/client/src/material/src/styles/styles.qrc",
+	"VERBOSITY" : 0
+}

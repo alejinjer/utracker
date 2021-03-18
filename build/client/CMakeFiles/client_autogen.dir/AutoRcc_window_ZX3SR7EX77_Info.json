@@ -1,0 +1,35 @@
+{
+	"BUILD_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client/client_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master/client",
+	"CMAKE_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master",
+	"INCLUDE_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client/client_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/TabBar.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/PageStack.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/Sidebar.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/Toolbar.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/PageSidebar.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/AppTheme.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/Page.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/Window.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/MainView.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/NavigationDrawer.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/TabbedPage.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/ActionBar.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/ApplicationWindow.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/NavigationDrawerPage.qml"
+	],
+	"LOCK_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/client/CMakeFiles/client_autogen.dir/AutoRcc_window_ZX3SR7EX77_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "window" ],
+	"OUTPUT_CHECKSUM" : "ZX3SR7EX77",
+	"OUTPUT_NAME" : "qrc_window.cpp",
+	"RCC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/client/CMakeFiles/client_autogen.dir/AutoRcc_window_ZX3SR7EX77_Used.txt",
+	"SOURCE" : "/Users/opiskun/Desktop/uTracker-master/client/src/material/src/window/window.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client/client_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master/client",
+	"CMAKE_SOURCE_DIR" : "/Users/opiskun/Desktop/uTracker-master",
+	"INCLUDE_DIR" : "/Users/opiskun/Desktop/uTracker-master/build/client/client_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/popups/Dialog.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/popups/InputDialog.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/popups/PopupBase.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/popups/BottomActionSheet.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/popups/Dropdown.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/popups/MenuField.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/popups/TimePickerDialog.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/popups/BottomSheet.qml",
+		"/Users/opiskun/Desktop/uTracker-master/client/src/material/src/popups/Popover.qml"
+	],
+	"LOCK_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/client/CMakeFiles/client_autogen.dir/AutoRcc_popups_Q4EQIM7HSF_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "popups" ],
+	"OUTPUT_CHECKSUM" : "Q4EQIM7HSF",
+	"OUTPUT_NAME" : "qrc_popups.cpp",
+	"RCC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/opiskun/Desktop/uTracker-master/build/client/CMakeFiles/client_autogen.dir/AutoRcc_popups_Q4EQIM7HSF_Used.txt",
+	"SOURCE" : "/Users/opiskun/Desktop/uTracker-master/client/src/material/src/popups/popups.qrc",
+	"VERBOSITY" : 0
+}
