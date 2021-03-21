@@ -29,7 +29,7 @@ Item {
                 text: "Welcome to uTracker, " + mUser.userLogin
                 font.bold: true
                 color: UThemes.font_
-                font.pixelSize: 50 * Units.dp
+                font.pixelSize: 80 * Units.dp
                 Behavior on color {
                     ColorAnimation {
                         duration: 200

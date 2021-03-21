@@ -49,7 +49,7 @@ Page {
             gradient: Gradient {
 
                 GradientStop { position: 0.4; color: "white" }
-                GradientStop { position: 1.0; color: "#7f7f70" }
+                GradientStop { position: 1.0; color: "#80808F" }
             }
     }
 

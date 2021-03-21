@@ -105,18 +105,6 @@ Page {
                     }
                 }
             }
-//             S_Button_1 {
-//                 id:signInGoogle
-//                 buttonContent: "Continue with Google"
-//                 width: parent.width
-//                 onClicked: {
-//                     UThemes.changeTheme()
-//                 }
-
-//                 Component.onCompleted: {
-// //                    signIn.clicked.connect(signUpRequest);
-//                 }
-//             }
         }
 
     }

@@ -16,9 +16,11 @@ Page {
     function createNewDesk() {
         console.log("Request to create new desk");
         console.log("!!!!!" + (rootAccount.height - userSection.count * (48 * Units.dp + 3) - dp(200)))
+//        mWorkflowList.append("Desk " + (mWorkflowList.rowCount + 1))
         var name = (mWorkflowList.rowCount() + 1)
         mWorkflow.createWorkflow("Desk " + name)
         control.position = 1.0
+//        sectionItems.model.dataChanged()
     }
 
     Connections {
@@ -42,10 +44,29 @@ Page {
             idWorkflow: 0
         }
     }
-
+//    ListModel {
+//        id: desksSection
+//        ListElement {
+//            title: "Desk 1"
+//            idNum: 1
+//        }
+//        ListElement{
+//            title: "Desk 2"
+//            idNum: 2
+//        }
+//        ListElement{
+//            title: "Desk 3"
+//            idNum: 3
+//        }
+//        ListElement{
+//            title: "Desk 4"
+//            idNum: 4
+//        }
+//    }
     property var sections: [userSection, mWorkflowList]
     property var sectionsTitles: ["User information", "Desks"]
     property int selectedComponent: 0
+//    property bool isListContentHeight: true
 
     id: rootAccount
     visible: true
@@ -105,6 +126,7 @@ Page {
                             text: sectionsTitles[index]
                             textColor: UThemes.isClassic ? "white" : UThemes.font
                             backgroundColor: UThemes.listBack
+//                            showDivider: true
                             elevation: 2
                         }
 
@@ -139,6 +161,9 @@ Page {
                                 selected: model.idWorkflow === selectedComponent
                                 onClicked: {
                                     selectedComponent = model.idWorkflow;
+//                                    mWorkflow.
+//                                    console.log(model.title)
+//                                    requestForDesk(model)
                                     mWorkflow.getWorkflowsModelById(selectedComponent)
                                     navDrawer.close()
                                 }
@@ -148,6 +173,7 @@ Page {
                 }
                 Button {
                     text: "New desk +"
+//                    elevation: sectionItems.isContentHeight ? 1 : 0
                     elevation: 1
                     height: dp(40)
                     width: parent.width
@@ -163,42 +189,42 @@ Page {
             height: dp(40)
             width: parent.width
             anchors.bottom: parent.bottom
-            // Row {
-            //     anchors.fill: parent
-            //     Item {
-            //         height: switcher.height
-            //         width: parent.width / 3
-            //         Label {
-            //             anchors.centerIn: parent
-            //             text: "Classic"
-            //             style: "body2"
-            //             color: UThemes.font_
+            Row {
+                anchors.fill: parent
+                Item {
+                    height: switcher.height
+                    width: parent.width / 3
+                    Label {
+                        anchors.centerIn: parent
+                        text: "Classic"
+                        style: "body2"
+                        color: UThemes.font_
 
-            //         }
-            //     }
-            //     Item {
-            //         height: switcher.height
-            //         width: parent.width / 3
-            //         Switch {
-            //             anchors.centerIn: parent
-            //             checked: !UThemes.isClassic
-            //             darkBackground: false
-            //             onClicked: UThemes.changeTheme()
-            //             color: UThemes.font
-            //         }
-            //     }
-            //     Item {
-            //         height: switcher.height
-            //         width: parent.width / 3
-            //         Label {
-            //             anchors.centerIn: parent
-            //             text: "Pink"
-            //             style: "body2"
-            //             color: UThemes.font_
+                    }
+                }
+                Item {
+                    height: switcher.height
+                    width: parent.width / 3
+                    Switch {
+                        anchors.centerIn: parent
+                        checked: !UThemes.isClassic
+                        darkBackground: false
+                        onClicked: UThemes.changeTheme()
+                        color: UThemes.font
+                    }
+                }
+                Item {
+                    height: switcher.height
+                    width: parent.width / 3
+                    Label {
+                        anchors.centerIn: parent
+                        text: "Pink"
+                        style: "body2"
+                        color: UThemes.font_
 
-            //         }
-            //     }
-            // }
+                    }
+                }
+            }
             Behavior on color {
                 ColorAnimation {
                     duration: 200

@@ -9,13 +9,48 @@ import QtGraphicalEffects 1.0
 
 import UThemes 1.0
 
+//    height:
+//    ListModel {
+//        id: model
+//        ListElement {
+//            text: "Plan"
+////            tasks: ["Task1", "Task2"]
+//        }
+//        ListElement {
+//            text: "Prccess"
+////            tasks: ["Task3", "Task4"]
+//        }
+//        ListElement {
+//            text: "Done"
+////            tasks: ["Task5"]
+//        }
+//    }
+
+
+
+//                                                                      add variable isEdit
+
+
 
 Item {
     property alias listModel: deskListView.model
     function createNewList () {
         mWorkflow.appendLists("List " + (listModel.rowCount() + 1))
+//        listModel.append({titleD: "List " + (listModel.rowCount() + 1)})
+
         control.position = 1.0
     }
+
+//    Connections {
+//        target: mWorkflow
+//        onServerSingleWorkflowResponse: {
+//            if (!valid) {
+//                snackbar.open("Wrong login or password");
+//            } else {
+//                root.goMainWindow();
+//            }
+//        }
+//    }
 
     ListModel {
         id: deskModel
@@ -34,6 +69,7 @@ Item {
         anchors.centerIn: parent
         width: parent.width - dp(20)
         height: parent.height - dp(20)
+//        backgroundColor: Palette.colors["purple"]["50"]
         backgroundColor: UThemes.desk
         Row{
             id: layout
@@ -51,7 +87,11 @@ Item {
                 orientation: Qt.Horizontal
                 flickableDirection: Flickable.HorizontalFlick
                 boundsBehavior: Flickable.StopAtBounds
-
+//                anchors {
+//                    top: parent.top
+//                    left: parent.left
+//                    margins: dp(10)
+//                }
                 interactive: false
                 model: mCardListsModel
 
@@ -76,13 +116,19 @@ Item {
                     cardListHeight: deskListView.height - dp(70)
                     cardListTitle: titleD
                     listId: idD
-
+//                    cardTitleEditor.onAccepted:  {
+//                        if(index == (mCardListsModel.rowCount() - 1)) {
+//                            buttonAddList.clicked()
+//                        }
+//                    }
                     states: [
                     State {
                             name: "inDrag"
                             when: index === deskListView.draggedItemIndex
                             PropertyChanges { target: cardList; parent: dndContainer }
                             PropertyChanges { target: cardList; anchors.centerIn: undefined }
+//                            PropertyChanges { target: cardList; x: coords.mouseX - dp(150)}
+//                            PropertyChanges { target: cardList; y: coords.mouseY - dp(35)}
                         }
                     ]
                 }
@@ -122,6 +168,33 @@ Item {
                 }
             }
         }
+//        MouseArea {
+//            id: coords
+//            anchors {
+//                top:parent.top
+//                left: parent.left
+//            }
+//            width: deskListView.width
+//            height: dp(70)
+//            acceptedButtons: Qt.LeftButton | Qt.RightButton
+
+//            onReleased: {
+//                if (mouse.button === Qt.RightButton)
+//                    return
+//                if (deskListView.draggedItemIndex !== -1) {
+//                    var draggedIndex = deskListView.draggedItemIndex
+//                    deskListView.draggedItemIndex = -1
+//                    mCardListsModel.move(draggedIndex,deskListView.indexAt(mouseX + control.globalPos, mouseY),1)
+//                }
+//            }
+
+//            onPressed: {
+//                if (mouse.button === Qt.RightButton)
+//                    return
+//                deskListView.draggedItemIndex = deskListView.indexAt(mouseX + control.globalPos, mouseY)
+//                console.log("Pressed " + deskListView.draggedItemIndex)
+//            }
+//        }
 
     }
 }

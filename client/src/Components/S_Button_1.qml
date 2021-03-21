@@ -38,7 +38,7 @@ Rectangle {
         anchors.margins: parent.border.width
         id: button
         radius: parent.radius
-        color: (!mouseArea.containsMouse ? buttonMainColor : buttonHoverColor)
+        color: (!mouseArea.containsMouse ? (buttonType == "StandartType" ? buttonMainColor : "20000000") : buttonHoverColor)
         Text {
             id: text
 //            clip: true
