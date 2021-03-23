@@ -35,7 +35,7 @@ Item {
                 height: parent.height
                 width: cardWidth - (menuButton.width - parent.spacing / 2)
                 color: UThemes.font
-                font.pixelSize: dp(19)
+                font.pixelSize: dp(14)
                 verticalAlignment: Text.AlignVCenter
                 horizontalAlignment: Text.AlignLeft
                 MouseArea {

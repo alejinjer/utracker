@@ -23,7 +23,7 @@ QtObject {
     property string backBack: !isClassic ? "#dab6c2" : white
     
     // cards background?
-    property string headerBack: !isClassic ? "#80f6a2bf" : "#121212"
+    property string headerBack: !isClassic ? "#80f6a2bf" : "#5a585c"
     property string addTask: !isClassic ? "#7a163c" : "#5a585c"
     property string addTaskFont: !isClassic ? "white" : "white"
     // left accents

@@ -13,6 +13,7 @@ import QtQuick 2.4
 import QtQuick.Layouts 1.1
 import Material 0.3
 import Material.ListItems 0.1 as ListItem
+import "../Components"
 
 import UThemes 1.0
 
@@ -273,6 +274,7 @@ Item {
 
         textFormat: Text.PlainText
         text: actionBar.title
+        horizontalAlignment: Text.AlignHCenter
         style: "title"
         color: headColor/*Theme.lightDark(actionBar.backgroundColor, Theme.light.textColor,
                                                             Theme.dark.textColor)*/
@@ -288,7 +290,6 @@ Item {
         }
 
         height: parent.implicitHeight
-
         spacing: 24 * Units.dp
 
         Repeater {
