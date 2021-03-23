@@ -103,7 +103,7 @@ Item {
                     size: 0.3
                     contentItem: Rectangle {
                         implicitWidth: 3
-                        implicitHeight: 50
+                        implicitHeight: 15
                         radius: width / 2
                         color: !(deskListView.width < deskListView.contentWidth) ? "#007a163c" :
                                                  (control.pressed || control.hovered ? UThemes.sliderMainHover : UThemes.sliderMain)
