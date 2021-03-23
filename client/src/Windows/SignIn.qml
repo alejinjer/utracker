@@ -46,9 +46,9 @@ Page {
             start: Qt.point(0, 0)
             end: Qt.point(parent.width, 0)
             gradient: Gradient {
-                GradientStop { position: 0.0; color: UThemes.gradienter }
-                GradientStop { position: 0.5; color: "white" }
-                GradientStop { position: 1.0; color: UThemes.gradienter }
+                GradientStop { position: 0.0; color: "#121212" }
+                GradientStop { position: 0.4; color: "#121212" }
+                GradientStop { position: 1.0; color: "#121212" }
             }
     }
 
@@ -61,7 +61,7 @@ Page {
             text: "uTracker"
             color: UThemes.font
             font.bold: true
-            font.pixelSize: 100 * Units.dp
+            font.pixelSize: 140 * Units.dp
         }
         S_Input_1 {
             id: inputNickname

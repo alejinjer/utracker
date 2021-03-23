@@ -23,7 +23,7 @@ Item {
         anchors.centerIn: parent
         width: parent.width - dp(20)
         height: parent.height - dp(5)
-        backgroundColor: "#fbfaf6"
+        backgroundColor: red
         Row {
             id:lay
             anchors.fill: parent

@@ -48,8 +48,8 @@ Page {
             end: Qt.point(parent.width, 0)
             gradient: Gradient {
 
-                GradientStop { position: 0.4; color: "white" }
-                GradientStop { position: 1.0; color: "#80808F" }
+                GradientStop { position: 0.4; color: "#040404" }
+                GradientStop { position: 1.0; color: "#000000" }
             }
     }
 
@@ -60,7 +60,7 @@ Page {
             id: lable
             text: "uTracker"
             font.bold: true
-            color: "#5a585c"
+            color: "#bc6ff1"
             font.pixelSize: 100 * Units.dp
         }
         S_Input_1 {

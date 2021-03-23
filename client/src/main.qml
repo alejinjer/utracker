@@ -23,7 +23,7 @@ ApplicationWindow {
 //        primaryColor: Qt.rgba(0.5,0.5,0.56, 1)
         primaryColor: UThemes.primary
         accentColor: UThemes.accent
-        tabHighlightColor: "white"
+        //tabHighlightColor: "white"
 
     }
 
