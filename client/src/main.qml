@@ -28,8 +28,8 @@ ApplicationWindow {
     }
 
     visible: true
-    width: 1920
-    height: 1080
+    width: dp(1440)
+    height: dp(980)
     clientSideDecorations: false
     initialPage: SignIn {}
    // initialPage: MainAccountWindow {}

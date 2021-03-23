@@ -11,6 +11,7 @@
         <file>Components/UserForms.qml</file>
         <file>Components/S_Button_1.qml</file>
         <file>Components/S_Input_1.qml</file>
+        <file>Components/SearchBox.qml</file>
         <file>Windows/CardView.qml</file>
         <file>Windows/MoveToDialog.qml</file>
     </qresource>

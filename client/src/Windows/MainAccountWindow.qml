@@ -5,6 +5,8 @@ import QtQuick.Controls 2.15
 import Material 0.3
 import Material.ListItems 0.1 as ListItem
 import QtQuick.Layouts 1.3
+import "../Components"
+
 
 import UThemes 1.0
 
@@ -44,52 +46,21 @@ Page {
             idWorkflow: 0
         }
     }
-//    ListModel {
-//        id: desksSection
-//        ListElement {
-//            title: "Desk 1"
-//            idNum: 1
-//        }
-//        ListElement{
-//            title: "Desk 2"
-//            idNum: 2
-//        }
-//        ListElement{
-//            title: "Desk 3"
-//            idNum: 3
-//        }
-//        ListElement{
-//            title: "Desk 4"
-//            idNum: 4
-//        }
-//    }
-    property var sections: [userSection, mWorkflowList]
-    property var sectionsTitles: ["User information", "Desks"]
+
+    property var sections: [mWorkflowList]
+    property var sectionsTitles: ["Desks"]
     property int selectedComponent: 0
-//    property bool isListContentHeight: true
 
     id: rootAccount
     visible: true
-    width: dp(1920)
-    height: dp(1080)
+    width: dp(1440)
+    height: dp(980)
 
     title: "uTracker"
 
     backgroundColor: UThemes.backBack
 
     actionBar.decorationColor:"#7a163c"
-    actions: [
-        Action {
-            id: info
-            iconName: "action/account_circle"
-            text: "Info"
-            hoverAnimation: false
-            onTriggered: {
-                sidebarInfo.showing = !sidebarInfo.showing
-            }
-        }
-    ]
-
 
     rightSidebar: InfoSidebar {
         id: sidebarInfo
@@ -126,7 +97,6 @@ Page {
                             text: sectionsTitles[index]
                             textColor: UThemes.isClassic ? "white" : UThemes.font
                             backgroundColor: UThemes.listBack
-//                            showDivider: true
                             elevation: 2
                         }
 
@@ -161,9 +131,6 @@ Page {
                                 selected: model.idWorkflow === selectedComponent
                                 onClicked: {
                                     selectedComponent = model.idWorkflow;
-//                                    mWorkflow.
-//                                    console.log(model.title)
-//                                    requestForDesk(model)
                                     mWorkflow.getWorkflowsModelById(selectedComponent)
                                     navDrawer.close()
                                 }
@@ -173,7 +140,6 @@ Page {
                 }
                 Button {
                     text: "New desk +"
-//                    elevation: sectionItems.isContentHeight ? 1 : 0
                     elevation: 1
                     height: dp(40)
                     width: parent.width
@@ -189,42 +155,42 @@ Page {
             height: dp(40)
             width: parent.width
             anchors.bottom: parent.bottom
-            Row {
-                anchors.fill: parent
-                Item {
-                    height: switcher.height
-                    width: parent.width / 3
-                    Label {
-                        anchors.centerIn: parent
-                        text: "Classic"
-                        style: "body2"
-                        color: UThemes.font_
+            // Row {
+            //     anchors.fill: parent
+            //     Item {
+            //         height: switcher.height
+            //         width: parent.width / 3
+            //         Label {
+            //             anchors.centerIn: parent
+            //             text: "Classic"
+            //             style: "body2"
+            //             color: UThemes.font_
 
-                    }
-                }
-                Item {
-                    height: switcher.height
-                    width: parent.width / 3
-                    Switch {
-                        anchors.centerIn: parent
-                        checked: !UThemes.isClassic
-                        darkBackground: false
-                        onClicked: UThemes.changeTheme()
-                        color: UThemes.font
-                    }
-                }
-                Item {
-                    height: switcher.height
-                    width: parent.width / 3
-                    Label {
-                        anchors.centerIn: parent
-                        text: "Pink"
-                        style: "body2"
-                        color: UThemes.font_
+            //         }
+            //     }
+            //     Item {
+            //         height: switcher.height
+            //         width: parent.width / 3
+            //         Switch {
+            //             anchors.centerIn: parent
+            //             checked: !UThemes.isClassic
+            //             darkBackground: false
+            //             onClicked: UThemes.changeTheme()
+            //             color: UThemes.font
+            //         }
+            //     }
+            //     Item {
+            //         height: switcher.height
+            //         width: parent.width / 3
+            //         Label {
+            //             anchors.centerIn: parent
+            //             text: "Pink"
+            //             style: "body2"
+            //             color: UThemes.font_
 
-                    }
-                }
-            }
+            //         }
+            //     }
+            // }
             Behavior on color {
                 ColorAnimation {
                     duration: 200
@@ -264,9 +230,11 @@ Page {
         }
     }
 
-
-
     Snackbar {
         id: snackbar
+    }
+
+    Component.onCompleted: {
+        showNav();
     }
 }
