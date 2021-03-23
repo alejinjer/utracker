@@ -13,7 +13,7 @@ Item {
     property int parentId: -1
     property string cardContent: "value"
     property int cardWidth: dp(100)
-    property int cardHeight: dp(80)
+    property int cardHeight: dp(50)
     property QtObject modelOwner
 
     width: cardWidth
@@ -88,6 +88,8 @@ Item {
 
             ActionBar {
                 id: menuButton
+                anchors.bottom : parent.bottom
+                anchors.bottomMargin: dp(20)
                 height: parent.height
                 width: parent.height
                 menuColor:UThemes.font
